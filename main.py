@@ -7,7 +7,7 @@ menor = False
 velho = False
 
 if numero < 0:
-    print('impossivel!')
+    print('impossível!')
     impossivel = True
 elif numero < 18:
     print('não precisa se alistar.')
