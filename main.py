@@ -7,10 +7,10 @@ menor = False
 velho = False
 
 if numero < 0:
-    print('impossível!')
+    print('Impossível!')
     impossivel = True
 elif numero < 18:
-    print('não precisa se alistar.')
+    print('Não precisa se alistar.')
     maior = True
 elif 18 < numero < 65:
     print('Não esqueça de votar na próxima eleição.')
@@ -19,4 +19,4 @@ elif numero > 65:
     print('Vá descansar.')
     velho = True
 else:
-    print('eita!')
+    print('Eita!')
